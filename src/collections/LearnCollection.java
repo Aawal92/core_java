@@ -19,6 +19,13 @@ public class LearnCollection {
         names.add("Abdullah");
         names.add(2, "Tuhin");
 
+        List<String> otherName = new ArrayList<>();
+        otherName.add("Mark");
+        otherName.add("Micheal");
+        otherName.add("Novel");
+
+        names.addAll(otherName);
+
         for(String name : names){
             System.out.println(name);
         }
